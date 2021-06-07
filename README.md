@@ -1,6 +1,5 @@
 ## Shadow Rate
 
-This document was rendered at `r format(Sys.time(), "%B %e, %Y at %H:%M:%S"))`
 
 ## Structural Shadow Rate
 
@@ -24,3 +23,6 @@ Output
 `wuxia_var_zlb` - run_var
 
 `shadow_rate_main_ext`
+
+Mon Jun  7 03:58:56 PM EDT 2021
+Mon Jun  7 03:59:43 PM EDT 2021
