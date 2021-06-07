@@ -2,7 +2,7 @@
 
 "A Structural Measure of the Shadow Federal Funds Rates"
 
-Callum Jones, Mariano Kulish, and James Morley
+by Callum Jones, Mariano Kulish, and James Morley
 
 ## Structural Shadow Rate
 
