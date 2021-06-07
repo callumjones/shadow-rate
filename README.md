@@ -1,8 +1,6 @@
----
-title: "Shadow Rate"
-author: "Callum Jones and Mariano Kulish and James Morley"
-date: '`r paste("Updated on", Sys.Date())`'
----
+## Shadow Rate
+
+This document was rendered at `r format(Sys.time(), "%B %e, %Y at %H:%M:%S"))`
 
 ## Structural Shadow Rate
 
