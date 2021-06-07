@@ -3,11 +3,15 @@
 
 ## Structural Shadow Rate
 
-Updated
+Updated on DATE_HERE.
 
-![Shadow Rate](shadowrate.png)
+![Shadow Rate](exhibits/shadowrate.png)
 
-Output
+## Data
+
+The data is available in Excel format [here](exhibits/shadowrate.xlsx) and in a Matlab file [here](exhibits/shadowrate.mat). 
+
+The Excel spreadsheet has the following information.
 - shadowrate.xlsx: Excel worksheet with the date (in quarters, with name `date`) Federal Funds Rate (with name `fedfundsrate`) and the Structural Shadow Federal Funds Rate (with name `fedfundsrate_shadow`).
 
 ## Figures in the Text
