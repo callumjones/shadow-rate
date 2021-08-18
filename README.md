@@ -2,6 +2,8 @@
 
 by Callum Jones, Mariano Kulish, and James Morley
 
+The paper is available [here](https://callumjones.github.io/files/shadow-rate.pdf).
+
 ## Structural Shadow Rate
 
 Last updated on 08-June-2021.
@@ -19,3 +21,26 @@ The files contain the following variables.
 | `date`   | Quarters, starting from 1984Q1 |
 | `fedfundsrate` | Federal Funds Rate, Annualized |
 | `fedfundsrate_shadow` | Shadow Federal Funds Rate, Annualized |
+
+<!---
+## Figure Reproduction
+
+### Software Requirements
+
+- The code is written in Matlab.
+- The [Dynare](https://www.dynare.org/) package is used to run the model simulations. The scripts work with version 4.6.0 of Dynare.
+
+### Figures
+
+The figures in the paper are computed by running the scripts below. All figures are printed to the figures directory specified at the top of each script.
+
+| Figure File Name         | Script to Run                       |
+|--------------------------|-------------------------------------|
+|shadow_rate_main_v2       | `run_shadow_distribution`           |
+|shadow_rate_main_shocks   | `run_shadow_distribution`           |
+|shadow_rate_zlb_combined  | `run_shadow_distribution`           |
+|contribution_sh_shocks_srlr_sh_r20only | `run_long_rate_decomp` |
+|stsr_var_zlb              | `run_var`                           |
+|wuxia_var_zlb             | `run_var`                           |
+|shadow_rate_main_ext_v2   | `run_shadow_distribution`           |
+-->
