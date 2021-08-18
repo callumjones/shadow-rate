@@ -6,7 +6,7 @@ The paper is available [here](https://callumjones.github.io/files/shadow-rate.pd
 
 ## Structural Shadow Rate
 
-Last updated on 08-June-2021.
+Last updated on 17-August-2021.
 
 ![Shadow Rate](exhibits/shadowrate.png)
 
