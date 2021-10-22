@@ -2,11 +2,11 @@
 
 by Callum Jones, Mariano Kulish, and James Morley
 
-The paper is available [here](https://callumjones.github.io/files/shadow-rate.pdf).
+The paper is available [here](https://www.federalreserve.gov/econres/feds/a-structural-measure-of-the-shadow-federal-funds-rate.htm).
 
 ## Structural Shadow Rate
 
-Last updated on 08-June-2021.
+Last updated on 17-August-2021.
 
 ![Shadow Rate](exhibits/shadowrate.png)
 
