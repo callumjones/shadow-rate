@@ -26,7 +26,7 @@ The files contain the following variables.
 
 ![Shadow Rate](exhibits/shadowrate_systematic_rule.png)
 
-The implied systematic policy response to economic conditions is based on the policy rule without monetary policy or shadow rate shocks but allowing for interest rate smoothing, i.e., <p align="center"><img src="taylorrule.png"></p> where the <img src="https://latex.codecogs.com/png.latex?\alpha" title="\alpha" />'s are the monetary policy response coefficients and <img src="https://latex.codecogs.com/png.latex?\tilde{y}_t" title="\tilde{y}_t" /> is the output gap from the flexible price equilibrium for the [Smets and Wouters (2007)](https://www.aeaweb.org/articles?id=10.1257/aer.97.3.586) model detailed in the appendix of [Jones, Kulish, and Morley (2021)](https://www.federalreserve.gov/econres/feds/a-structural-measure-of-the-shadow-federal-funds-rate.htm). The lines correspond to posterior means.
+The implied systematic policy response to economic conditions is based on the policy rule without monetary policy or shadow rate shocks but allowing for interest rate smoothing, i.e., <p align="center"><img src="taylorrule.png"></p> where the <img src="https://latex.codecogs.com/png.latex?\alpha" title="\alpha">'s are the monetary policy response coefficients and <img src="https://latex.codecogs.com/png.latex?\tilde{y}_t" title="\tilde{y}_t"> is the output gap from the flexible price equilibrium for the [Smets and Wouters (2007)](https://www.aeaweb.org/articles?id=10.1257/aer.97.3.586) model detailed in the appendix of [Jones, Kulish, and Morley (2021)](https://www.federalreserve.gov/econres/feds/a-structural-measure-of-the-shadow-federal-funds-rate.htm). The lines correspond to posterior means.
 
 
 
