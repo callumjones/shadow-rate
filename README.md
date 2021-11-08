@@ -1,4 +1,4 @@
-# Shadow Federal Funds Rate
+# Structural Shadow Federal Funds Rate
 
 by Callum Jones, Mariano Kulish, and James Morley
 
@@ -10,13 +10,7 @@ Last updated on 04-November-2021. The latest observation is 2021:3.
 
 ![Shadow Rate](exhibits/shadowrate.png)
 
-
-## Stance of Monetary Policy
-
-![Shadow Rate](exhibits/shadowrate_systematic_rule.png)
-
-
-## Data
+### Data
 
 The data is available in Excel format [here](https://github.com/callumjones/shadow-rate/blob/main/exhibits/shadowrate.xlsx?raw=true) and in a Matlab file [here](https://github.com/callumjones/shadow-rate/blob/main/exhibits/shadowrate.mat?raw=true).
 
@@ -27,6 +21,12 @@ The files contain the following variables.
 | `date`   | Quarters, starting from 1984Q1 |
 | `fedfundsrate` | Federal Funds Rate, Annualized |
 | `fedfundsrate_shadow` | Shadow Federal Funds Rate, Annualized |
+
+## The Stance of Monetary Policy
+
+![Shadow Rate](exhibits/shadowrate_systematic_rule.png)
+
+The implied systematic policy response to economic conditions is based on the policy rule without monetary policy or shadow rate shocks but allowing for interest rate smoothing, i.e., $$i_{t,\text{systematic}} = \bar{i} + (1-\alpha_i)\alpha_p \hat{\pi}_t + (1-\alpha_i)\alpha_y \tilde{y}_t + \alpha_{\Delta y} \Delta \tilde{y}_t + \alpha_i (i_{t-1,\text{systematic}}-\bar{i}),$$ where the $\alpha$'s are the monetary policy response coefficients and $\tilde{y}_t$ is the output gap from the flexible price equilibrium for the [Smets and Wouters (2007)](https://www.aeaweb.org/articles?id=10.1257/aer.97.3.586) model detailed in the appendix of [Jones, Kulish, and Morley (2021)](https://www.federalreserve.gov/econres/feds/a-structural-measure-of-the-shadow-federal-funds-rate.htm). The lines correspond to posterior means.
 
 <!---
 ## Figure Reproduction
