@@ -10,7 +10,13 @@ Last updated on 04-November-2021. The latest observation is 2021:3.
 
 ![Shadow Rate](exhibits/shadowrate.png)
 
-### Data
+
+## Stance of Monetary Policy
+
+![Shadow Rate](exhibits/shadowrate_systematic_rule.png)
+
+
+## Data
 
 The data is available in Excel format [here](https://github.com/callumjones/shadow-rate/blob/main/exhibits/shadowrate.xlsx?raw=true) and in a Matlab file [here](https://github.com/callumjones/shadow-rate/blob/main/exhibits/shadowrate.mat?raw=true).
 
@@ -21,10 +27,6 @@ The files contain the following variables.
 | `date`   | Quarters, starting from 1984Q1 |
 | `fedfundsrate` | Federal Funds Rate, Annualized |
 | `fedfundsrate_shadow` | Shadow Federal Funds Rate, Annualized |
-
-## Stance of Monetary Policy
-
-
 
 <!---
 ## Figure Reproduction
