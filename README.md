@@ -22,11 +22,11 @@ The files contain the following variables.
 | `fedfundsrate` | Federal Funds Rate, Annualized |
 | `fedfundsrate_shadow` | Shadow Federal Funds Rate, Annualized |
 
-## The Stance of Monetary Policy
+## Comparison of Structural Shadow Rate with Rate Implied by Taylor Rule
 
 ![Shadow Rate](exhibits/shadowrate_systematic_rule.png)
 
-The implied systematic policy response to economic conditions is based on the policy rule without monetary policy or shadow rate shocks but allowing for interest rate smoothing, i.e., <p align="center"><img src="taylorrule.png"></p> where the &alpha;'s are the monetary policy response coefficients and &ycirc; is the output gap from the flexible price equilibrium for the [Smets and Wouters (2007)](https://www.aeaweb.org/articles?id=10.1257/aer.97.3.586) model detailed in the appendix of [Jones, Kulish, and Morley (2021)](https://www.federalreserve.gov/econres/feds/a-structural-measure-of-the-shadow-federal-funds-rate.htm). The lines correspond to posterior means.
+The implied systematic policy response to economic conditions is based on the Taylor policy rule without monetary policy or shadow rate shocks but allowing for interest rate smoothing, i.e., <p align="center"><img src="taylorrule.png"></p> where the &alpha;'s are the monetary policy response coefficients and &ycirc; is the output gap from the flexible price equilibrium for the [Smets and Wouters (2007)](https://www.aeaweb.org/articles?id=10.1257/aer.97.3.586) model detailed in the appendix of [Jones, Kulish, and Morley (2021)](https://www.federalreserve.gov/econres/feds/a-structural-measure-of-the-shadow-federal-funds-rate.htm). The lines correspond to posterior means.
 
 
 
