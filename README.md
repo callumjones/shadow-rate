@@ -22,7 +22,7 @@ The files contain the following variables.
 | `fedfundsrate` | Federal Funds Rate, Annualized |
 | `fedfundsrate_shadow` | Shadow Federal Funds Rate, Annualized |
 
-## Comparison of Structural Shadow Rate with Interest Rate Implied by Taylor Rule
+## Comparison of Structural Shadow Rate with Policy Rule Rate Implied by Prevailing Economic Conditions
 
 ![Shadow Rate](exhibits/shadowrate_systematic_rule.png)
 
