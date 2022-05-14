@@ -6,7 +6,7 @@ The paper is available [here](https://www.federalreserve.gov/econres/feds/a-stru
 
 ## Structural Shadow Rate
 
-Last updated on 04-November-2021. The latest observation is 2021:3.
+Last updated on 03-February-2022. The latest observation is 2021:4.
 
 ![Shadow Rate](exhibits/shadowrate.png)
 
